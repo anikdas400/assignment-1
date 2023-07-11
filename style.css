@@ -6,6 +6,8 @@ body{
     font-family: 'Lato', sans-serif;
 
 }
+/* banner-container */
+
 .banner-container{
     width: 100%;
     height: 90vh;
@@ -49,4 +51,86 @@ body{
 
 .fol{
     height: 595px;
+}
+/* bonus-flowers-secion */
+.bonus-flowers-secion{
+    background: #FFF;
+}
+.bonus-head{
+    text-align: center;
+    margin-top: 70px;
+}
+.bonus-head h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.bonus-head p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bonus-flower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.flowers{
+    width: 330px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+
+}
+.flowers-b{
+    width: 330px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+}
+.flowers-c{
+    width: 330px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+}
+.bonus-item{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.bonus-item h3{
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+.photo{
+    height: 280px;
+    width: 280px;
+    position: relative;
+    top: 60px;
+}
+.photo-a{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 80px; 
+    
+}
+.photo-c{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 80px; 
 }
