@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 
 }
 /* banner-container */
@@ -49,7 +49,7 @@ body{
 }
 .flower{
     position: relative;
-    top: 28px;
+    top: 30px;
 }
 
 
@@ -274,4 +274,31 @@ form{
     border-radius: 7px;
     
 
+}
+/* footer-section */
+.footer-section{
+    background: #111010;
+    padding: 90px;
+    text-align: center;
+}
+.footer-section h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-section p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+small{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
