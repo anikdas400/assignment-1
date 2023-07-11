@@ -47,6 +47,10 @@ body{
     padding: 10px 20px;
     border: none;
 }
+.flower{
+    position: relative;
+    top: 28px;
+}
 
 
 .fol{
@@ -158,4 +162,44 @@ body{
     font-size: 18px;
     font-weight: 600;
     margin-top: 15px;
+}
+/* hot-deal-section */
+.hot-deal-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 90px;
+}
+span{
+    color: #E55473;
+}
+.deal-text{
+    width: 50%;
+    text-align: center;
+    
+}
+.deal-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.deal-text p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.deal-img{
+    
+    
+}
+.hot-img{
+width: 250px;
+height: 350px;
 }
