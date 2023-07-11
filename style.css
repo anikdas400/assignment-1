@@ -63,6 +63,7 @@ body{
 .bonus-head{
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 .bonus-head h2{
     color: #272727;
@@ -202,4 +203,25 @@ span{
 .hot-img{
 width: 250px;
 height: 350px;
+}
+.fko{
+    width: 50px;
+}
+/* instagram-section */
+.instagram-section{
+    background: #FFF;
+    margin-bottom: 30px;
+   
+}
+.beauty-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.toped-img{}
+.imatap{
+    width: 280px;
+    height: 300px;
 }
